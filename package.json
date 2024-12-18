@@ -1,16 +1,20 @@
 {
-  "name": "vue-iconpicker",
-  "version": "1.0.0",
+  "name": "@johnnydeboas/vue-iconpicker",
+  "version": "1.0.1",
   "description": "A font awesome icon picker for vuejs3",
   "main": "dist/vue-icon-picker.umd.js",
   "module": "dist/vue-icon-picker.es.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "vite build",
     "dev": "vite"
   },
   "repository": {
     "type": "git",
-    "url": "vue-iconpicker"
+    "url": "https://github.com/JohnnyPortex/vue-iconpicker"
   },
   "dependencies": {
     "vue": "^3.0.0",

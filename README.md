@@ -15,13 +15,12 @@ A simple and customizable Font Awesome icon picker component for Vue.js 3. The c
 
 ## Installation
 
-To install `vue-iconpicker`, you can use npm or yarn:
+To install `@johnnydeboas/vue-iconpicker`, you can use npm or yarn:
 
 ```bash
-npm install vue-iconpicker
+npm install @johnnydeboas/vue-iconpicker
 # or
-yarn add vue-iconpicker
-```
+yarn add @johnnydeboas/vue-iconpicker
 
 Make sure you have Font Awesome icons available in your project as well:
 
@@ -44,7 +43,7 @@ In your Vue component, import `IconPicker` and use it in your template:
 
 <script setup>
 import { ref } from 'vue';
-import IconPicker from 'vue-iconpicker';
+import IconPicker from '@johnnydeboas/vue-iconpicker';
 
 const selectedIcon = ref(null);
 </script>
